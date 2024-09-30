@@ -13,10 +13,3 @@ def calculate_insurance_fee(age, driving_years, accident_count):
         fee += 1000000
 
     return fee
-
-# Ví dụ kiểm tra
-age = 24
-driving_years = 2
-accident_count = 0
-result = calculate_insurance_fee(age, driving_years, accident_count)
-print(f"Phí bảo hiểm: {result}")
